@@ -22,7 +22,7 @@ export default function WeatherApp() {
 
     return (
         <div style={{ textAlign: "center" }}>
-            <h2>Weather App using React</h2>
+            <h2>Weather Forecast App</h2>
             <SearchBox updateInfo={updateInfo} />
             <InfoBox info={weatherInfo} />
         </div>
