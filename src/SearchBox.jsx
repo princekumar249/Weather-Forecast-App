@@ -19,7 +19,7 @@ export default function SearchBox({ updateInfo }) {
                 tempMin: jsonResponse.main.temp_min,
                 tempMax: jsonResponse.main.temp_max,
                 humidity: jsonResponse.main.humidity,
-                feelsLIke: jsonResponse.main.feels_like,
+                feelsLike: jsonResponse.main.feels_like,
                 weather: jsonResponse.weather[0].description,
             }
             console.log(result);
